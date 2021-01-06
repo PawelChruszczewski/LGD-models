@@ -1,9 +1,8 @@
 # LGD-models
 
-This notebook was created using the database from the book: Deep Credit Risk - Machine Learning in Python, Harald Scheule, Daniel Rösch (2020).
-The theoretical framework was based on the book: IFRS 9 and CECL Credit Risk Modelling and Validation, Tiziano Bellini (2019).
-
-In this study Loss given default (LGD) is defined as a ratio of losses to an exposure at default. The LGD explored in this notebook was based on workout LGDs and assumed no discounting of cash flows. The periods have been deidentified.
+The objective of this notebook is to present and compare different approaches to Loss Given Default modeling.
+In this project Loss given default (LGD) is defined as a ratio of losses to an exposure at default. 
+The LGD explored in this notebook was based on workout LGDs and assumed no discounting of cash flows. The periods have been deidentified.
 
 The modelling approach follows order given below:
 1. Exploratory Data Analysis 
@@ -17,3 +16,6 @@ The modelling approach follows order given below:
 9. Beta Regression
 10. Mixture-model approach
 11. Machine Learning Models(Regression Tree, Random Forest, Generalized Boosted Regression)
+
+This notebook was created using the database from the book: Deep Credit Risk - Machine Learning in Python, Harald Scheule, Daniel Rösch (2020).
+The theoretical framework was based on the book: IFRS 9 and CECL Credit Risk Modelling and Validation, Tiziano Bellini (2019).
